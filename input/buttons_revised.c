@@ -2,9 +2,11 @@ int serInputLatch = 6 ;  // The latch pin.  This is required in order for the sh
 int serInputClock = 7 ;  // The clock pin.  
 int serInputData  = 8 ;  // The serial in pin.  This will be read by digitalRead.  
 
+
 int serOutputLatch = 4;
 int serOutputClock = 5; 
 int serOutputData = 3;
+
 
 boolean registers[8];
 boolean buttons[8];
